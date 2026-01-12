@@ -1,4 +1,4 @@
-## Next Drizzle CRUD
+## Cambridge Rentals
 
 ### Live Demo
 A working version of this app is available at https://cambridge-rentals.vercel.app/
