@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 
 export default function App() {
   return (
-    <div>
+    <div className="space-y-12">
       <Header />
 
-      <main>
+      <main className="space-y-12">
         <Title />
 
         <PropertyList />
