@@ -2,7 +2,7 @@ import { LucideHouse, LucidePhone, LucideMail } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 p-4 bg-neutral-900/95 backdrop-blur-md">
+    <header className="sticky top-0 z-10 p-4 border-b bg-neutral-900/80 backdrop-blur-md">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <h1 className="flex items-center gap-2">
           <LucideHouse className="text-primary" />
@@ -12,13 +12,13 @@ export default function Header() {
         </h1>
 
         <div className="flex items-center gap-2">
-          <LucidePhone className="text-primary" />
-          <span className="text-white">(555) 123-4567</span>
+          <LucidePhone className="text-primary" size={18} />
+          <span className="text-white text-sm">(555) 123-4567</span>
         </div>
 
         <div className="flex items-center gap-2">
-          <LucideMail className="text-primary" />
-          <span className="text-white">me@example.com</span>
+          <LucideMail className="text-primary" size={18} />
+          <span className="text-white text-sm">me@example.com</span>
         </div>
       </div>
     </header>

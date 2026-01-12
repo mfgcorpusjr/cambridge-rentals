@@ -17,7 +17,7 @@ export default function PropertyListItem({ property }: PropertyListItemProps) {
   return (
     <Card
       className={cn("pt-0 overflow-hidden", {
-        "opacity-50": !property.available,
+        "opacity-30": !property.available,
       })}
     >
       <CardHeader className="p-0">
