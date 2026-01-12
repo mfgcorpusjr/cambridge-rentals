@@ -6,19 +6,21 @@ export default function Header() {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <h1 className="flex items-center gap-2">
           <LucideHouse className="text-primary" />
-          <span className="text-white text-2xl font-bold tracking-tight">
+          <span className="text-primary text-2xl font-bold tracking-tight">
             Cambridge Rentals
           </span>
         </h1>
 
-        <div className="flex items-center gap-2">
-          <LucidePhone className="text-primary" size={18} />
-          <span className="text-white text-sm">(555) 123-4567</span>
-        </div>
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
+            <LucidePhone size={18} />
+            <span className="text-white text-sm">(555) 123-4567</span>
+          </div>
 
-        <div className="flex items-center gap-2">
-          <LucideMail className="text-primary" size={18} />
-          <span className="text-white text-sm">me@example.com</span>
+          <div className="flex items-center gap-2">
+            <LucideMail size={18} />
+            <span className="text-white text-sm">me@example.com</span>
+          </div>
         </div>
       </div>
     </header>

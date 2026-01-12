@@ -12,7 +12,7 @@ export default function Footer() {
       <p
         className={cn("flex items-center gap-2", {
           "text-primary": isOpen,
-          "text-red-500": !isOpen,
+          "text-destructive": !isOpen,
         })}
       >
         <LucideClock size={18} />{" "}
